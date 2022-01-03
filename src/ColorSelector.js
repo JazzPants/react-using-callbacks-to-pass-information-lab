@@ -8,6 +8,7 @@ export default class ColorSelector extends Component {
       return <div onClick={callback} key={idx} className="color-swatch" style={{backgroundColor: str}}/>
     })
   )
+  //set color to draw with based on div(color) selected in the nav bar
 
   render() {
     return (
@@ -17,3 +18,5 @@ export default class ColorSelector extends Component {
     )
   }
 }
+//render color navbar
+//change selectedColor to the one selected on the div in the navbar

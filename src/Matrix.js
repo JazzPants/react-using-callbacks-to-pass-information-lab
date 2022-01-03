@@ -21,6 +21,7 @@ export default class Matrix extends Component {
   )
 
   setSelectedColor = (newColor) => {
+    console.log(this.state.selectedColor)
     this.setState({
       selectedColor: newColor
     })
